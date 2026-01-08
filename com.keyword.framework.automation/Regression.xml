@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression">
+  <test thread-count="2" name="Test" parallel="false" >
+    <classes>
+      <class name="testScripts.TC_01_VerifyLogin_the_application"/>
+      <class name="testScripts.TC_02_logout_the_application"/>
+      <class name="testScripts.TC_03_verifyuserAccout_in_the_application"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

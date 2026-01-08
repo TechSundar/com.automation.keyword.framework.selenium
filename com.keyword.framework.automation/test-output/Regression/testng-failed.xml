@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testScripts.TC_02_logout_the_application">
+        <methods>
+          <include name="setUpTestSuite"/>
+          <include name="executeTest"/>
+          <include name="setCurrentTestCaseName"/>
+        </methods>
+      </class> <!-- testScripts.TC_02_logout_the_application -->
+      <class name="testScripts.TC_03_verifyuserAccout_in_the_application">
+        <methods>
+          <include name="setUpTestSuite"/>
+          <include name="executeTest"/>
+          <include name="setCurrentTestCaseName"/>
+        </methods>
+      </class> <!-- testScripts.TC_03_verifyuserAccout_in_the_application -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Regression] -->
